@@ -1,0 +1,126 @@
+html {background-color: pink;
+}
+
+.img {
+    width: 50px;
+    length: 40px;
+  }
+.grid-parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 120px);
+    gap: 10px;
+  }
+  .grid-header {
+    background: pink;
+    grid-column: span 4;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred;
+  }
+
+  .grid-item {
+    background: pink;
+    grid-column: span 1;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:palevioletred;
+  }
+
+
+  .flex-parent {
+    border: 10px dotted;
+    border-color:rgb(206, 66, 112);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+    .pink {
+    background:rgb(247, 83, 138);
+    }
+
+    .pinktext {
+        background:rgb(247, 83, 138);
+        }
+  
+  .flex-child {
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:rgb(206, 66, 112);
+    padding: 20px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .imgflower {
+    width: 600px;
+    height: 250px;
+    }
+
+    .header {
+        font-size: 30px;
+        color: rgb(206, 66, 112);
+    }
+
+    .introparagraph {
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(206, 66, 112);
+    }
+    button {
+        height: 100px;
+        display: flex;
+        padding: 40px 20px;
+        border:double;
+        background: pink;
+        color: rgb(206, 66, 112);
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+  .grid-parent1 {
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 400px);
+    gap: 10px;
+    color:palevioletred;
+  }
+
+  .grid-item1 {
+    padding: 40px;
+    background: palevioletred;
+    color: rgb(206, 66, 112);
+    grid-column: span 1;
+  }
+
+  .imgflower-1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .header-grid {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .secondparagraph {
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: pink;
+  }
+
+  @media (min-width: 667px) and (max-width: 1024px)
+    img {
+     width:40%
+ }
+
+ @media (Min-width: 1025px)
+     img {
+         width:40%
+     }
