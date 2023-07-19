@@ -119,27 +119,24 @@ html {background-color: pink;
   }
   @media (min-width: 667px) and (max-width: 1024px) {
     body {
-      flex-direction: row;  
+      
+      flex-direction: column;  
          background: pink;
       flex-wrap: wrap;
     }
     img {
       width: 20%
   }
-   column {
-    flex: 50%;
-  }
+ 
 }
   
  @media (min-width: 1025px) {
     body {
       flex-direction: column;
          background: pink;
+        }
     }
     img {
       width: 40%
-  }
-   column {
-    width: 100%;
   }
 }
