@@ -31,14 +31,6 @@ else if (Food ===3) {
 alert (
   `You chosen ${Food}`
 )
-const validateOrderName = (orderName) => {
-  if (Food !== Pizza && Food !== 2 && Food !== 3) {
-  alert("Select a number from the menu")
-  orderName()
-} else {
-  return true
-}
-}
 
 
 // Step 3 - Subtype choice
@@ -52,10 +44,12 @@ let confirmation = prompt ("Are you sure?")
 let age = prompt ('Type your age in numbers')
 
 alert (
-  'You ordered ${Food} ${Subtype} 
+  `You ordered ${Food} ${subtype}`
 )
 
 let confirmation = prompt ("Place your order")
 
 // Step 5 - Order confirmation
 // Your code goes here
+
+
