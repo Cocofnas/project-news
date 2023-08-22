@@ -31,7 +31,7 @@ else if (Food ===3) {
 alert (
   `You chosen ${Food}`
 )
-
+vnbn
 
 // Step 3 - Subtype choice
 // Your code goes here
