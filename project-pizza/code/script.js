@@ -37,7 +37,7 @@ let subtype  = prompt ("What kind do you want?")
 
 // Step 4 - Age
 // Your code goes here
-let age 
+let age vjkfdbfdvjkavjlbfdv
 
 // Step 5 - Order confirmation
 // Your code goes here
