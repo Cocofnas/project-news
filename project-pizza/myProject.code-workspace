@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../myProject"
+		},
+		{
+			"path": "../../../../myProject/project-news"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"name": "project-pizza",
+			"path": "project-pizza"
+		}
+	]
+}
