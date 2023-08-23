@@ -23,13 +23,13 @@ let selectedFood ="";
 //If the choice is 1, it is pizza
 //If the choice is 2, it is Pasta
 //If the choice is 3, it is Salad
-if (Food ===1) {
+if (Food === "1") {
  selectedFood ="Pizza";
 }
-else if (Food ===2) {
+else if (Food === "2") {
   selectedFood ="Pasta";
 }
-else if (Food ===3) {
+else if (Food ==="3") {
   selectedFood ="Salad";
 }
 else {
@@ -37,7 +37,7 @@ else {
   Process.exit(1);
 }
 alert (
-  `You chosen ${Food}`
+  `You chosen ${selectedFood}`
 )
 
 
@@ -46,7 +46,7 @@ alert (
 let subtype  = "";
 let subtypeName = ""; //Store name for the subtypes pizza, pasta and salad
 
-switch (Food) {
+switch (selectedFood) {
   case "Pizza":
     subtype = prompt ('Select the type of pizza you want: 1 - Margherita 2 - Veggie 3 - Nutella Please enter the number of your choice:');
     subtypeName = ["Margherita", "Veggie", "Nutella"];
@@ -59,21 +59,17 @@ switch (Food) {
         subtype = prompt ('Select the type of pizza you want: 1 - Shrimp 2 - Greek 3 - Tomato Please enter the number of your choice:');
         subtypeName = ["Shrimp", "Greek", "Tomato"];
         break;
-        default:
-          alert("invalid choice.");
-          ProcessingInstruction.exit(1);
 }
 
-let confirmation = prompt ("Are you sure?")
 
 // Step 4 - Age
 // Your code goes here
 let age = prompt ('Type your age in numbers')
 if (age >=18) {
   console.log ("The price is 150 SEK");
-else {
-  console-log("The price is 100 SEK")
 }
+else {
+  console-log("The price is 100 SEK");
 }
 
 alert (
@@ -85,5 +81,5 @@ prompt ("Place your order")
 
 // Step 5 - Order confirmation
 // Your code goes here
-let end = 
+
 
