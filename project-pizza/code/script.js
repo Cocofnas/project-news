@@ -38,7 +38,7 @@ else {
 }
 alert (
   `You chosen ${selectedFood}`
-)
+);
 
 
 // Step 3 - Subtype choice
@@ -60,26 +60,72 @@ switch (selectedFood) {
         subtypeName = ["Shrimp", "Greek", "Tomato"];
         break;
 }
+// To Technigo, I have tried out different codes now, and I now
 
+if (selectedFood === "Pizza")
+{
+  alert(
+  `You chose ${subtypeName[0]} as your meal`);
+  (
+    `You chose ${subtypeName[1]} as your meal`);
+    (
+      `You chose ${subtypeName[2]} as your meal`);
+
+  
+
+  } else if (selectedFood === "Pasta") {
+  alert(
+    `You chose ${subtypeName[0]} as your meal`);
+    (
+      `You chose ${subtypeName[1]} as your meal`);
+      (
+        `You chose ${subtypeName[2]} as your meal`);
+}
+
+else if (selectedFood === "Salad") {
+alert(
+  `You chose ${subtypeName[0]} as your meal`);
+  (
+    `You chose ${subtypeName[1]} as your meal`);
+    (
+      `You chose ${subtypeName[2]} as your meal`);
+}
 
 // Step 4 - Age
 // Your code goes here
-let age = prompt ('Type your age in numbers')
-if (age >=18) {
-  console.log ("The price is 150 SEK");
+
+let age = prompt ("Type your age in numbers")
+if (age>=18) {
+  alert (`The price is 150 SEK`);
 }
-else {
-  console-log("The price is 100 SEK");
+else if (age<=18) {
+  alert (`The price is 100 SEK`);
 }
 
-alert (
-  `You ordered ${Food} ${subtype} for the amount of ${age}`
-)
-
-let confirmation = 
-prompt ("Place your order")
 
 // Step 5 - Order confirmation
 // Your code goes here
 
+if (selectedFood === "Pizza")
+{
+  alert(
+  `You chose ${selectedFood} and ${subtypeName} as your meal.`);
+  
 
+  } else if (selectedFood === "Pasta") {
+  alert(
+    `You chose ${selectedFood} and ${subtypeName} as your meal.`);
+}
+
+else if (selectedFood === "Salad") {
+alert(
+  `You chose ${selectedFood} and ${subtypeName} as your meal.`);
+}
+
+let order = prompt ("Do you want to place an order? Yes or no")
+if (order==="yes") {
+  alert (`Thank you for your order.`);
+}
+else if (order==="no") {
+  alert (`Hope to see you again!`);
+}
